@@ -61,7 +61,7 @@ app.get('/weather', (req, res) => {
                         })
                     }
                     placename = location
-                    desc = info
+                    desc = `weather is ${info}, current temperature is ${temperature} and it feels like ${feelslike}`
                     res.send({
                         location: placename,
                         forecast: desc,
