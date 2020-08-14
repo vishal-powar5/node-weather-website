@@ -39,7 +39,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        message: 'For help anytime call 911',
+        message: 'This app is not build in support for api you should check mapbox.com and weatherstack.com for support.',
         name: 'vishal'
     })
 })
